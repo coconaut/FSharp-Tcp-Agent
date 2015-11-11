@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TcpAgentRunner", "src\TcpAgentRunner\TcpAgentRunner.fsproj", "{FF66D257-08FA-4364-BBFB-C0AD27FEAB11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DCEC73FF-F4D8-4006-845E-0373ECAF4BE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B298B83B-0D05-46C6-903E-31BAE42E4237}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		build.fsx = build.fsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF66D257-08FA-4364-BBFB-C0AD27FEAB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF66D257-08FA-4364-BBFB-C0AD27FEAB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF66D257-08FA-4364-BBFB-C0AD27FEAB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF66D257-08FA-4364-BBFB-C0AD27FEAB11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF66D257-08FA-4364-BBFB-C0AD27FEAB11} = {DCEC73FF-F4D8-4006-845E-0373ECAF4BE7}
+	EndGlobalSection
+EndGlobal
